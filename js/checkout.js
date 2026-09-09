@@ -26,7 +26,7 @@ function showCartItems() {
             <div class="order-item">
                 <div class="order-item-info">
                     <div class="order-item-name">${item.title}</div>
-                    <div class="order-item-details> Qty:${item.quantity}</div>
+                    <div class="order-item-details"> Qty:${item.quantity}</div>
                 </div>
                 <div class="order-item-price">$${total.toFixed(2)}</div>
             </div>
